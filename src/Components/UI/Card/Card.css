@@ -1,0 +1,40 @@
+.card {
+  background-color: rgb(112, 178, 46);
+  width: 18rem;
+  height: 26rem;
+  border: 0.1rem solid rgb(34, 34, 34);
+  border-radius: 1rem;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card > img {
+  width: 75%;
+  height: auto;
+  border: 0.1rem solid rgb(34, 34, 34);
+}
+
+.card > h2 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 1rem;
+  font-size: large;
+  color: rgb(254, 254, 255);
+}
+
+.card > button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  background-color: rgb(69, 112, 32);
+  color: rgb(254, 254, 255);
+  padding: 0.5rem;
+  border-style: none;
+  border-radius: 1rem;
+  width: 75%;
+  border: 0.1rem solid rgb(34, 34, 34);
+}
