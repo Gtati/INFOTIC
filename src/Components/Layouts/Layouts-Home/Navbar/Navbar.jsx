@@ -2,7 +2,8 @@ import React from 'react'
 import logoSena from '../../../../assets/Images/logoSena.png'
 import { HashLink as Link } from 'react-router-hash-link';
 import './Navbar.css'
- const Navbar = () => {
+
+const Navbar = () => {
   return (
     <nav className='header'>
       <ul className='info1'>
