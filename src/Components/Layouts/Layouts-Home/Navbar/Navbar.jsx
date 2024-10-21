@@ -10,7 +10,7 @@ const Navbar = () => {
       <Link smooth to='/'>
           <img src={logoSena} alt="Logo Sena" className="logo" />
         </Link>
-        <h2 className='title'>InfoTIC</h2>
+        <h1 className='title'>InfoTIC</h1>
       </ul>
       <ul className='itemNavbar'>
         <li>
