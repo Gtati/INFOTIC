@@ -23,7 +23,7 @@ import './Navbar.css'
           </Link>
         </li>
         <li>
-          <Link smooth to='/' className='list-navbar'>
+          <Link smooth to='/instructors' className='list-navbar'>
           Funcionarios
           </Link>
         </li>
