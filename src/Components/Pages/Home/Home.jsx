@@ -5,7 +5,9 @@ import Navbar from "../../Layouts/Layouts-Home/Navbar/Navbar";
   return (
     <>
     <Navbar/>
-  <hr />
+    <hr />
+    <h1 className="title">"Bienvenid@ a la Entidad mas querida por los Colombianos"</h1>
+ 
     </>
   )
 }
