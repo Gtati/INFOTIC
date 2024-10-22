@@ -19,7 +19,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link smooth to='/' className='list-navbar'>
+          <Link smooth to='/courses' className='list-navbar'>
             Cursos
           </Link>
         </li>
