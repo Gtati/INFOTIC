@@ -59,3 +59,15 @@
     width: 40%;
     height: 20rem;
 }
+.location-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.text-location{
+    padding-left: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+    color: rgb(56, 53, 53);
+}
