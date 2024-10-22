@@ -1,0 +1,58 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 27rem;
+  height: 60%;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: start;
+}
+
+.header-modal {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.experience-studys {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-modal {
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+
+.close-button {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: rgb(166, 22, 22);
+}
+
+.name-email-areas {
+  align-content: center;
+  font-size: large;
+}
+
+.experience-studys {
+  margin-top: 1.5rem;
+  font-size: large;
+}
