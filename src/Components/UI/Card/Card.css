@@ -38,3 +38,13 @@
   width: 75%;
   border: 0.1rem solid rgb(34, 34, 34);
 }
+
+.card > h4 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 1rem;
+  font-size: medium;
+  color: rgb(254, 254, 255);
+  margin-left: 1rem;
+  margin-right: 1rem;
+}

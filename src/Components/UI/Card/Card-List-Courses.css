@@ -1,0 +1,11 @@
+.card-list-courses {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  gap: 6rem;
+  align-content: center;
+  justify-content: center;
+}

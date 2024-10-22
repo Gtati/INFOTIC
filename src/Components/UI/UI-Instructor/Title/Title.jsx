@@ -1,8 +1,8 @@
 import React from 'react'
 import './Title.css'
 
-export const Title = () => {
+export const Title = ({text}) => {
   return (
-    <h1>Conoce nuestros funcionarios</h1>
+    <h1>{text}</h1>
   )
 }
