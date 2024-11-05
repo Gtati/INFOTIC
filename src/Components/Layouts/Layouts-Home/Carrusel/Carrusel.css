@@ -61,8 +61,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
+    background-color: rgba(0, 0, 0, 0.3); /* Fondo semitransparente */
+    border-radius: 10px; /* Bordes redondeados si lo deseas */
+}
+
   .dot {
     height: 12px;
     width: 12px;

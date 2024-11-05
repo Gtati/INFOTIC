@@ -1,6 +1,9 @@
-.title {
+.title-welcome {
     text-align: center;
-    color: black;
+    color: #0fa0ba;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
 }
 
 .main-title {
@@ -14,7 +17,7 @@
     /* Ancho de la línea */
     border: 0;
     height: 2px;
-    background-color: #70b22e;
+    background-color: rgb(132, 134, 136);
     /* Color de la línea */
     margin-top: 3px;
 

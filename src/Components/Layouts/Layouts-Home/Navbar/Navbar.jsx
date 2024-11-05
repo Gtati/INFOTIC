@@ -10,7 +10,7 @@ const Navbar = () => {
         <Link smooth to='/'>
           <img src={logoSena} alt="Logo Sena" className="logo" />
         </Link>
-        <h1 className='title'>InfoTIC</h1>
+        <h1 className='title-page'>InfoTIC</h1>
       </ul>
       <ul className='itemNavbar'>
         <li>
@@ -30,7 +30,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div className='buttons'>
-        <a href='http://senasofiaplus.edu.co/sofia-public/' target='_blank' rel='noopener noreferrer' className='btn'>
+        <a href='http://senasofiaplus.edu.co/sofia-public/' target='_blank' rel='noopener noreferrer' className='list-navbar'>
           Acceder
         </a>
       </div>

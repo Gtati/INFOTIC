@@ -13,7 +13,7 @@ import FormularioContacto from "../../Layouts/Layouts-Home/Contact/Contact";
     <>
     <Navbar/>
     <hr className="line" />
-    <h1 className="title">"Bienvenid@ a la Entidad mas querida por los Colombianos"</h1>
+    <h1 className="title-welcome">"Bienvenid@ a la Entidad mas querida por los Colombianos"</h1>
     <Carrusel/>
     <div className="main-container">
     <h2 className="main-title">Biblioteca Sena
