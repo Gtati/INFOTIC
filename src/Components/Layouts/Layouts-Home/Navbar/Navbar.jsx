@@ -7,16 +7,16 @@ const Navbar = () => {
   return (
     <nav className='header'>
       <ul className='info1'>
-      <Link smooth to='/'>
+        <Link smooth to='/'>
           <img src={logoSena} alt="Logo Sena" className="logo" />
         </Link>
         <h1 className='title'>InfoTIC</h1>
       </ul>
       <ul className='itemNavbar'>
         <li>
-          <Link smooth to='/' className='list-navbar'>
-       Horarios
-          </Link>
+          <a href='https://cct.sisge.space/' target='_blank' rel='noopener noreferrer' className='list-navbar'>
+            Horarios
+          </a>
         </li>
         <li>
           <Link smooth to='/courses' className='list-navbar'>
@@ -25,14 +25,14 @@ const Navbar = () => {
         </li>
         <li>
           <Link smooth to='/instructors' className='list-navbar'>
-          Funcionarios
+            Funcionarios
           </Link>
         </li>
       </ul>
       <div className='buttons'>
-        <Link smooth to='/' className='btn'>
-        Acceder
-        </Link>
+        <a href='http://senasofiaplus.edu.co/sofia-public/' target='_blank' rel='noopener noreferrer' className='btn'>
+          Acceder
+        </a>
       </div>
     </nav>
   )
