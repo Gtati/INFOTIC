@@ -28,6 +28,11 @@ const Navbar = () => {
             Funcionarios
           </Link>
         </li>
+        <li>
+          <a href='https://biblioteca.sena.edu.co/' target='_blank' rel='noopener noreferrer' className='list-navbar'>
+            Biblioteca
+          </a>
+        </li>
       </ul>
       <div className='buttons'>
         <a href='http://senasofiaplus.edu.co/sofia-public/' target='_blank' rel='noopener noreferrer' className='list-navbar'>

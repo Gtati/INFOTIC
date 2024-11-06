@@ -37,7 +37,6 @@ const FAQ = () => {
 
   return (
     <section className="faq-section">
-      <h2>Preguntas Frecuentes</h2>
       {faqData.map((item, index) => (
         <FAQItem key={index} question={item.question} answer={item.answer} />
       ))}

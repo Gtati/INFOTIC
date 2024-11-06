@@ -15,16 +15,8 @@ import FormularioContacto from "../../Layouts/Layouts-Home/Contact/Contact";
     <hr className="line" />
     <h1 className="title-welcome">"Bienvenid@ a la Entidad mas querida por los Colombianos"</h1>
     <Carrusel/>
-    <div className="main-container">
-    <h2 className="main-title">Biblioteca Sena
-    <hr className="line" />
-    </h2>
-    <input type="text" className="search-bar" placeholder="Buscar..." />
-    </div>
-    <div className="img-biblioteca">
-      <img className="imgb" src={biblioteca1} alt="" />
-      <img className="imgb" src={biblioteca2} alt="" />
-    </div>
+    <hr className="line2" />
+    
     <h2 className="main-title">Nuestra Ubicación
     <hr className="line1" />
     </h2>
@@ -35,14 +27,17 @@ Calle 57 No. 8 - 69 Bogotá D.C. (Cundinamarca), Colombia <br />
 Conmutador Nacional (57 1) 5461500 - Extensiones <br />
 Correo notificaciones judiciales: servicioalciudadano@sena.edu.co</p>
 </div>
+<hr className="line2" />
 <h2 className="main-title">Contáctanos
     <hr className="line1" />
     </h2>
 <FormularioContacto/>
+<hr className="line2" />
 <h2 className="main-title">Preguntas Frecuentes
     <hr className="line1" />
     </h2>
     <FAQItem/>
+    <hr className="line2" />
     <Footer/>
     </>
   )
