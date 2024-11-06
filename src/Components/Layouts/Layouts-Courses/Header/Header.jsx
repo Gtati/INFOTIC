@@ -5,10 +5,13 @@ import { HomeIcon } from '../../../UI/UI-Instructor/Home-Icon/Home-Icon'
 
 export const Header = () => {
   return (
-    <header>
+    <>
+      <header>
       <Logo/>
       <Title text='Descubre nuestros cursos'/>
       <HomeIcon/>
-    </header>
+      </header>
+      <hr className='line'/>
+    </>
   )
 }

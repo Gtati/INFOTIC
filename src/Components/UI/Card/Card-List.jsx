@@ -9,6 +9,7 @@ export const CardList = () => {
   const exampleCardData = [
     {
       id: 1,
+      position: 'Coordinador',
       name: 'Juan Esteban Gonzalez Caro',
       email: 'juan.gonzalez@example.com',
       areas: 'Desarrollo, Diseño',
@@ -18,6 +19,7 @@ export const CardList = () => {
     },
     {
       id: 2,
+      position: 'Instructor',
       name: 'Kike Montilla Garcia',
       email: 'kike.montilla@example.com',
       areas: 'Marketing, Ventas',
@@ -27,6 +29,7 @@ export const CardList = () => {
     },
     {
       id: 3,
+      position: 'Coordinador',
       name: 'Arnoldo Veron Leon',
       email: 'arnoldo.veron@example.com',
       areas: 'Soporte Técnico, Desarrollo',
@@ -36,6 +39,7 @@ export const CardList = () => {
     },
     {
       id: 4,
+      position: 'Instructor',
       name: 'Leonel Messi Cuccitini',
       email: 'leonel.messi@example.com',
       areas: 'Fútbol, Deportes',
@@ -45,6 +49,7 @@ export const CardList = () => {
     },
     {
       id: 5,
+      position: 'Secretario',
       name: 'Armando Mendoza Pinzon',
       email: 'armando.mendoza@example.com',
       areas: 'Ciencia de Datos, Desarrollo',
@@ -54,6 +59,7 @@ export const CardList = () => {
     },
     {
       id: 6,
+      position: 'Instructor',
       name: 'Sofia Ramirez',
       email: 'sofia.ramirez@example.com',
       areas: 'Investigación, Biología',
@@ -78,7 +84,12 @@ export const CardList = () => {
   return (
     <div className="card-list">
       {exampleCardData.map(card => (
-        <Card key={card.id} name={card.name} image={card.image} onClick={() => openModal(card)}/>
+        <Card 
+          key={card.id} 
+          position={card.position}
+          name={card.name} 
+          image={card.image} 
+          onClick={() => openModal(card)}/>
       ))}
       <Modal isOpen={isModalOpen} onClose={closeModal} data={selectedCardData} />
     </div>

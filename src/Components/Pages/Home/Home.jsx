@@ -1,6 +1,4 @@
 import "./Home.css"
-import biblioteca1 from '../../../assets/Images/biblioteca1.jpeg'
-import biblioteca2 from '../../../assets/Images/biblioteca2.jpeg'
 import FAQItem from '../../Layouts/Questions/Questions'
 import Navbar from "../../Layouts/Layouts-Home/Navbar/Navbar";
 import Carrusel from "../../Layouts/Layouts-Home/Carrusel/Carrusel";
@@ -37,7 +35,7 @@ Correo notificaciones judiciales: servicioalciudadano@sena.edu.co</p>
     <hr className="line1" />
     </h2>
     <FAQItem/>
-    <hr className="line2" />
+
     <Footer/>
     </>
   )

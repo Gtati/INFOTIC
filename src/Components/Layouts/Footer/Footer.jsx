@@ -5,9 +5,12 @@ import './Footer.css'
 
 export const Footer = () => {
   return (
-    <footer>
+    <>
+      <hr className='line' />
+      <footer>
       <FooterInformation/>
       <OfficeHours/>    
-    </footer>
+      </footer>
+    </>
   )
 }

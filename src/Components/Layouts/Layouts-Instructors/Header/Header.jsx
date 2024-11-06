@@ -6,10 +6,13 @@ import './Header.css'
 
 export const Header = () => {
   return (
-    <header>
-      <Logo />
-      <Title text='Conoce a nuestros funcionarios'/>
-      <HomeIcon />
-    </header>
+    <>
+      <header>
+        <Logo />
+        <Title text='Conoce a nuestros funcionarios'/>
+        <HomeIcon />
+      </header>
+      <hr className='line'/>
+    </>
   )
 }
