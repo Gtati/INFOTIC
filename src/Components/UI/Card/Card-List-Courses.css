@@ -9,3 +9,25 @@
   align-content: center;
   justify-content: center;
 }
+
+.filter-buttons {
+  display: flex;
+  justify-content: center; 
+  gap: 1rem;
+  padding-top: 2rem;
+}
+
+.filter-buttons button {
+  padding: 0.5rem 1rem;
+  background-color: #ddd;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-family: calibri;
+}
+
+.filter-buttons button:hover,
+.filter-buttons button:active {
+  background-color: #00aa03;
+  color: white;
+}
