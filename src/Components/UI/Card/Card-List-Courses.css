@@ -24,10 +24,12 @@
   border-radius: 0.5rem;
   cursor: pointer;
   font-family: calibri;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .filter-buttons button:hover,
 .filter-buttons button:active {
   background-color: #00aa03;
   color: white;
+  box-shadow: 0 0 10px rgba(0, 170, 3, 0.5); /* Añadir sombra en hover */
 }

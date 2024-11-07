@@ -8,17 +8,34 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.modal-overlay.show {
+  opacity: 1;
+}
+
+.modal-overlay.hide {
+  opacity: 0;
 }
 
 .modal-content {
   background: white;
   border-radius: 8px;
   padding: 20px;
-  max-width: 27rem;
-  height: 60%;
+  max-width: 90%;
+  width: 27rem;
+  height: auto;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: start;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(0.9);
+}
+
+.modal-overlay.show .modal-content {
+  transform: scale(1);
 }
 
 .header-modal {
@@ -42,17 +59,4 @@
 .close-button {
   background: transparent;
   border: none;
-  font-size: 20px;
-  cursor: pointer;
-  color: rgb(166, 22, 22);
-}
-
-.name-email-areas {
-  align-content: center;
-  font-size: large;
-}
-
-.experience-studys {
-  margin-top: 1.5rem;
-  font-size: large;
 }

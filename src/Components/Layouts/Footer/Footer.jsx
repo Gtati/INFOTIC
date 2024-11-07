@@ -1,16 +1,16 @@
-import React from 'react'
-import { OfficeHours } from '../../UI/Footer/Office-Hours/Office-Hours'
-import { FooterInformation } from '../../UI/Footer/Footer-Information/Footer-Information'
-import './Footer.css'
+import React from 'react';
+import { OfficeHours } from '../../UI/Footer/Office-Hours/Office-Hours';
+import { FooterInformation } from '../../UI/Footer/Footer-Information/Footer-Information';
+import './Footer.css';
 
 export const Footer = () => {
   return (
     <>
-      <hr className='line' />
-      <footer>
-      <FooterInformation/>
-      <OfficeHours/>    
+      <hr className="line" />
+      <footer className="footer">
+        <FooterInformation />
+        <OfficeHours />
       </footer>
     </>
-  )
-}
+  );
+};

@@ -1,9 +1,9 @@
-footer {
+.footer {
   background-color: #ffffff;
   margin-top: 1rem;
   display: flex;
   justify-content: space-around;
   padding: 2rem;
-  font-family: calibri;
+  font-family: Calibri, sans-serif;
   color: #888888;
 }
