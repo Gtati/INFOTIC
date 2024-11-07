@@ -1,4 +1,5 @@
 import React from 'react'
+import './Footer-information.css'
 
 export const FooterInformation = () => {
   return (

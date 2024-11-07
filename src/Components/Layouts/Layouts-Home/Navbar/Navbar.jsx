@@ -12,28 +12,30 @@ const Navbar = () => {
         </Link>
         <h1 className="title-page">InfoTIC</h1>
       </ul>
-      <ul className="itemNavbar">
-        <li>
-          <a href="https://cct.sisge.space/" target="_blank" rel="noopener noreferrer" className="list-navbar" aria-label="Acceder a horarios">
-            Horarios
-          </a>
-        </li>
-        <li>
-          <Link smooth to="/courses" className="list-navbar" aria-label="Ir a cursos">
-            Cursos
-          </Link>
-        </li>
-        <li>
-          <Link smooth to="/instructors" className="list-navbar" aria-label="Ir a funcionarios">
-            Funcionarios
-          </Link>
-        </li>
-        <li>
-          <a href="https://biblioteca.sena.edu.co/" target="_blank" rel="noopener noreferrer" className="list-navbar" aria-label="Ir a biblioteca">
-            Biblioteca
-          </a>
-        </li>
-      </ul>
+      <div className='items'>
+        <ul className="itemNavbar">
+          <li>
+            <a href="https://cct.sisge.space/" target="_blank" rel="noopener noreferrer" className="list-navbar" aria-label="Acceder a horarios">
+              Horarios
+            </a>
+          </li>
+          <li>
+            <Link smooth to="/courses" className="list-navbar" aria-label="Ir a cursos">
+              Cursos
+            </Link>
+          </li>
+          <li>
+            <Link smooth to="/instructors" className="list-navbar" aria-label="Ir a funcionarios">
+              Funcionarios
+            </Link>
+          </li>
+          <li>
+            <a href="https://biblioteca.sena.edu.co/" target="_blank" rel="noopener noreferrer" className="list-navbar" aria-label="Ir a biblioteca">
+              Biblioteca
+            </a>
+          </li>
+        </ul>
+      </div>
       <div className="buttons">
         <a href="http://senasofiaplus.edu.co/sofia-public/" target="_blank" rel="noopener noreferrer" className="list-navbar" aria-label="Acceder al sistema Sofia Plus">
           Acceder

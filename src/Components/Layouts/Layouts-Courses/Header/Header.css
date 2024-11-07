@@ -1,6 +1,6 @@
-header {
-  display: flex !important;
-  justify-content: space-between !important; /* Espacio entre los elementos para un diseño más equilibrado */
+.header {
+  display: flex;
+  justify-content: space-between; /* Espacio entre los elementos para un diseño más equilibrado */
   align-items: center;
   background-color: #ffffff;
   text-align: center;

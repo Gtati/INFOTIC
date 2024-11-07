@@ -85,3 +85,36 @@
     font-size: 20px;
     color: rgb(132, 134, 136);
 }
+
+@media (max-width: 431px) {
+    .title-welcome {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .main-title {
+        font-size: 1.5em;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .line1 {
+        width: 100%;
+        border: 0;
+        height: 1px;
+        background-color: rgb(132, 134, 136);
+        margin-top: 3px ;
+    }
+
+    .location-home {
+        width: 100vw;
+        flex-direction: column;
+        float: left;
+    }
+
+    .text-location {
+        font-size: 16px;
+        padding: 1rem;
+        text-align: center;
+    }
+}

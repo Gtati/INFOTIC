@@ -9,7 +9,7 @@ export const LocationCard = () => {
   const styleMap = {
     height: '20rem',
     width: '20rem',
-    marginLeft: '15rem',
+    marginLeft: '0rem',
     border: 'solid 1px #000000',
     borderRadius: '20px',
     zIndex: 1

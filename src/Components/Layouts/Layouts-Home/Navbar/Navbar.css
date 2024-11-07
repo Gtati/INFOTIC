@@ -1,61 +1,96 @@
 * {
-    padding: 0;
-    margin: 0;
-  }
-  
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-  
-  .poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-  }
-  
+  padding: 0;
+  margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; /* Mejor distribución del contenido */
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+.info1 {
+  display: flex;
+  align-items: center;
+}
+
+.itemNavbar {
+  display: flex;
+  list-style: none;
+}
+
+.list-navbar {
+  text-decoration: none;
+  color: #848688;
+  font-size: 1rem;
+  padding: 1rem;
+  transition: color 0.3s ease;
+}
+
+.list-navbar:hover {
+  color: #333; /* Cambia el color al pasar el ratón */
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 4rem;
+  width: 4rem;
+  margin-right: 1rem;
+}
+
+.title-page {
+  font-size: 1.5rem;
+  color: #08a60a;
+  font-weight: 600;
+  padding-left: 0.5rem;
+}
+
+@media (max-width: 431px) {
   .header {
-    display: flex;
-    justify-content: space-between; /* Mejor distribución del contenido */
-    align-items: center;
-    background-color: #fff;
-    padding: 10px 20px;
+    flex-direction: column;
+    padding: 10px;
   }
-  
+
   .info1 {
-    display: flex;
-    align-items: center;
+    padding-bottom: 2rem;
   }
-  
+
+  .logo {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .title-page {
+    font-size: 1.2rem;
+  }
+
   .itemNavbar {
     display: flex;
-    list-style: none;
+    justify-content: space-around;
   }
-  
+
   .list-navbar {
-    text-decoration: none;
-    color: #848688;
-    font-size: 1rem;
-    padding: 1rem;
-    transition: color 0.3s ease;
+    font-size: 16px ! important;
+    padding: 1rem !important;
   }
-  
-  .list-navbar:hover {
-    color: #333; /* Cambia el color al pasar el ratón */
-  }
-  
+
   .buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .logo {
-    height: 4rem;
-    width: 4rem;
-    margin-right: 1rem;
-  }
-  
-  .title-page {
-    font-size: 1.5rem;
-    color: #08a60a;
-    font-weight: 600;
-    padding-left: 0.5rem;
-  }
-  
+    padding-top: 1rem;
+    margin: 0;
+    padding: 0;
+  } 
+}
