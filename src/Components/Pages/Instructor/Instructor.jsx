@@ -1,13 +1,13 @@
 import React from 'react'
-import { Header } from './../../Layouts/Layouts-Instructors/Header/Header'
 import { Footer } from '../../Layouts/Footer/Footer'
 import { CardList } from '../../UI/Card/Card-List'
 import './Instructor.css'
+import { Header } from '../../Layouts/Header/Header'
 
 export const Instructors = () => {
   return (
     <>
-      <Header />
+      <Header titleText='Conoce a nuestros funcionarios'/>
       <CardList/>
       <Footer/>
     </>
